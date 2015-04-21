@@ -1,4 +1,6 @@
-This is an addon starter template for the Ionic Framework built by [Podmedics](http://www.podmedics.org/).
+# Ionic Modular
+
+This is an addon starter template for the Ionic Framework built by [Podmedics](http://www.podmedics.org/). It is based on our [ionic_starter]() project which outlines our modular workflow in Ionic.
 
 ## How to use this template
 
@@ -8,21 +10,31 @@ To use this, either create a new ionic project using the ionic node.js utility, 
 
 ## With the Ionic tool:
 
-Take the name after ionic-starter-, and that is the name of the template to be used when using the ionic start command below:
+Copy the Github clone url, and that is the name of the template to be used when using the ionic start command below:
 
+```
 $ sudo npm install -g ionic cordova
-$ ionic start myApp sidemenu
+$ ionic start myApp git@github.com:Podmedics/ionic_modular.git
+```
 Then, to run it, cd into myApp and run:
 
+```
 $ ionic platform add ios
 $ ionic build ios
 $ ionic emulate ios
+```
+
 Substitute ios for android if not on a Mac, but if you can, the ios development toolchain is a lot easier to work with until you need to do anything custom to Android.
 
 ## Demo
 
 http://plnkr.co/edit/0RXSDB?p=preview
 
-## Issues
+## Issues & Contributions
 
-Issues have been disabled on this repo, if you do find an issue or have a question consider posting it on the Ionic Forum. Or else if there is truly an error, follow our guidelines for submitting an issue to the main Ionic repository. On the other hand, pull requests are welcome here!
+Pull requests and suggestions very welcome. Simply create an issue to begin the discussion.
+
+## Team
+1. Aidan Quilligan - Developer
+2. Ed Wallitt - Developer
+2. Jamie Peak - Designer
