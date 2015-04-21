@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>Podmedics Starter Template</title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="content/css/style.css" rel="stylesheet">
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- Cordova Stuff -->
+    <script src="lib/ngCordova/dist/ng-cordova.js"></script>
+    <script src="cordova.js"></script>
+
+    <!-- Additional useful utilities which can be installed via bower-->
+    <!--<script src="lib/angular-cache/dist/angular-cache.min.js"></script>-->
+    <!--<script src="lib/lodash/dist/lodash.min.js"></script>-->
+    <!--<script src='//maps.googleapis.com/maps/api/js?sensor=false'></script>-->
+    <!--<script src="lib/angular-google-maps/dist/angular-google-maps.min.js"></script>-->
+
+    <!------------------------------- Custom App Items ------------------------------->
+
+    <!-- Main App Module -->
+    <script src="app/app.module.js"></script>
+
+    <!-- Core -->
+    <script src="app/core/core.module.js"></script>
+    <script src="app/core/config.js"></script>
+    <script src="app/core/constants.js"></script>
+
+    <!-- Data -->
+    <script src="app/data/data.module.js"></script>
+    <script src="app/data/example-factory.service.js"></script>
+
+    <!------------------------------- Custom App Features ---------------------------->
+
+    <!-- Feature 1 -->
+    <script src="app/feature1/feature1.module.js"></script>
+    <script src="app/feature1/config.route.js"></script>
+    <script src="app/feature1/feature1.js"></script>
+
+    <!-- Feature 2 -->
+    <script src="app/feature2/feature2.module.js"></script>
+    <script src="app/feature2/config.route.js"></script>
+    <script src="app/feature2/feature2.js"></script>
+
+
+  </head>
+  <body ng-app="app">
+    <!--
+      The nav bar that will be updated as we navigate between views.
+    -->
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+    </ion-nav-bar>
+    <!--
+      The views will be rendered in the <ion-nav-view> directive below
+      Templates are in the /templates folder (but you could also
+      have templates inline in this html file if you'd like).
+    -->
+    <ion-nav-view></ion-nav-view>
+  </body>
+</html>

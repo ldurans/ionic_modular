@@ -1,0 +1,15 @@
+<ion-view view-title="Feature 1">
+
+  <ion-content scrollbar-y="false">
+    <ion-list>
+      <ion-item ng-repeat="contact in vm.contacts">
+        {{contact.first_name + " " + contact.last_name}}
+      </ion-item>
+    </ion-list>
+
+    <button class="button button-stable" ui-sref="feature2">
+      Feature 2
+    </button>
+  </ion-content>
+
+</ion-view>
